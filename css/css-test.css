@@ -1,0 +1,61 @@
+body {
+    position: relative;
+    aspect-ratio: 13 / 6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: darkblue;
+    padding: 30px;
+}
+
+.header__logo {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.header__nav-list {
+    display: flex;
+}
+
+.header__nav-item {
+    list-style: none;
+    padding-right: 20px;
+}
+
+.header__nav-item-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+    font-size: 20px;
+}
+
+.main {
+    padding-top: 40px;
+
+}
+
+.main__img {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    display: inline;
+    z-index: 10;
+    float: right;
+}
+
+.main__message {
+    font-size: 80px;
+    position: absolute;
+    top: 60%;
+}
+
+.main__background {
+    position: absolute;
+    background-color: darkblue;
+    width: 75%;
+    height: 30%;
+    top: 75%;
+}
